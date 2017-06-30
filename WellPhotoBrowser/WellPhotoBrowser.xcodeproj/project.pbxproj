@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0904601F05E13700A12EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A09045F1F05E13700A12EC5 /* main.m */; };
+		2A0904631F05E13800A12EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0904621F05E13800A12EC5 /* AppDelegate.m */; };
+		2A0904661F05E13800A12EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0904651F05E13800A12EC5 /* ViewController.m */; };
+		2A0904691F05E13800A12EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0904671F05E13800A12EC5 /* Main.storyboard */; };
+		2A09046B1F05E13800A12EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A09046A1F05E13800A12EC5 /* Assets.xcassets */; };
+		2A09046E1F05E13800A12EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A09046C1F05E13800A12EC5 /* LaunchScreen.storyboard */; };
+		2A0904791F05E13800A12EC5 /* WellPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0904781F05E13800A12EC5 /* WellPhotoBrowserTests.m */; };
+		2A0904841F05E13900A12EC5 /* WellPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0904831F05E13900A12EC5 /* WellPhotoBrowserUITests.m */; };
+		2A0904941F05EF2300A12EC5 /* PhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0904931F05EF2300A12EC5 /* PhotoBrowser.m */; };
+		C6C5D260AD61A32D6AE9DABF /* Pods_WellPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F9956932ABDFFDE34197BE /* Pods_WellPhotoBrowser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A0904751F05E13800A12EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0904531F05E13500A12EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A09045A1F05E13600A12EC5;
+			remoteInfo = WellPhotoBrowser;
+		};
+		2A0904801F05E13800A12EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0904531F05E13500A12EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A09045A1F05E13600A12EC5;
+			remoteInfo = WellPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A09045B1F05E13600A12EC5 /* WellPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A09045F1F05E13700A12EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A0904611F05E13700A12EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A0904621F05E13800A12EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A0904641F05E13800A12EC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A0904651F05E13800A12EC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A0904681F05E13800A12EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A09046A1F05E13800A12EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A09046D1F05E13800A12EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A09046F1F05E13800A12EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0904741F05E13800A12EC5 /* WellPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0904781F05E13800A12EC5 /* WellPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellPhotoBrowserTests.m; sourceTree = "<group>"; };
+		2A09047A1F05E13800A12EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A09047F1F05E13800A12EC5 /* WellPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0904831F05E13900A12EC5 /* WellPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellPhotoBrowserUITests.m; sourceTree = "<group>"; };
+		2A0904851F05E13900A12EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0904921F05EF2300A12EC5 /* PhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoBrowser.h; path = PhotoBrowser/PhotoBrowser.h; sourceTree = "<group>"; };
+		2A0904931F05EF2300A12EC5 /* PhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoBrowser.m; path = PhotoBrowser/PhotoBrowser.m; sourceTree = "<group>"; };
+		70427A5D0D70D878C98D7905 /* Pods-WellPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-WellPhotoBrowser/Pods-WellPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		71F9956932ABDFFDE34197BE /* Pods_WellPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WellPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12253D4882E0FEFF31C2261 /* Pods-WellPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellPhotoBrowser/Pods-WellPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0904581F05E13600A12EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C5D260AD61A32D6AE9DABF /* Pods_WellPhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0904711F05E13800A12EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09047C1F05E13800A12EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E187DAC33172108025A829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D12253D4882E0FEFF31C2261 /* Pods-WellPhotoBrowser.debug.xcconfig */,
+				70427A5D0D70D878C98D7905 /* Pods-WellPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A0904521F05E13500A12EC5 = {
+			isa = PBXGroup;
+			children = (
+				2A09045D1F05E13600A12EC5 /* WellPhotoBrowser */,
+				2A0904771F05E13800A12EC5 /* WellPhotoBrowserTests */,
+				2A0904821F05E13900A12EC5 /* WellPhotoBrowserUITests */,
+				2A09045C1F05E13600A12EC5 /* Products */,
+				24E187DAC33172108025A829 /* Pods */,
+				85B924B4B4E7C046F4375D32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A09045C1F05E13600A12EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A09045B1F05E13600A12EC5 /* WellPhotoBrowser.app */,
+				2A0904741F05E13800A12EC5 /* WellPhotoBrowserTests.xctest */,
+				2A09047F1F05E13800A12EC5 /* WellPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A09045D1F05E13600A12EC5 /* WellPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				2A0904911F05EF0500A12EC5 /* PhotoBrowser */,
+				2A0904611F05E13700A12EC5 /* AppDelegate.h */,
+				2A0904621F05E13800A12EC5 /* AppDelegate.m */,
+				2A0904641F05E13800A12EC5 /* ViewController.h */,
+				2A0904651F05E13800A12EC5 /* ViewController.m */,
+				2A0904671F05E13800A12EC5 /* Main.storyboard */,
+				2A09046A1F05E13800A12EC5 /* Assets.xcassets */,
+				2A09046C1F05E13800A12EC5 /* LaunchScreen.storyboard */,
+				2A09046F1F05E13800A12EC5 /* Info.plist */,
+				2A09045E1F05E13600A12EC5 /* Supporting Files */,
+			);
+			path = WellPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		2A09045E1F05E13600A12EC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A09045F1F05E13700A12EC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A0904771F05E13800A12EC5 /* WellPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0904781F05E13800A12EC5 /* WellPhotoBrowserTests.m */,
+				2A09047A1F05E13800A12EC5 /* Info.plist */,
+			);
+			path = WellPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		2A0904821F05E13900A12EC5 /* WellPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0904831F05E13900A12EC5 /* WellPhotoBrowserUITests.m */,
+				2A0904851F05E13900A12EC5 /* Info.plist */,
+			);
+			path = WellPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		2A0904911F05EF0500A12EC5 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				2A0904921F05EF2300A12EC5 /* PhotoBrowser.h */,
+				2A0904931F05EF2300A12EC5 /* PhotoBrowser.m */,
+			);
+			name = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		85B924B4B4E7C046F4375D32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F9956932ABDFFDE34197BE /* Pods_WellPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A09045A1F05E13600A12EC5 /* WellPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0904881F05E13900A12EC5 /* Build configuration list for PBXNativeTarget "WellPhotoBrowser" */;
+			buildPhases = (
+				1FAD166A8837FE6BC0673C29 /* [CP] Check Pods Manifest.lock */,
+				2A0904571F05E13600A12EC5 /* Sources */,
+				2A0904581F05E13600A12EC5 /* Frameworks */,
+				2A0904591F05E13600A12EC5 /* Resources */,
+				3EB87C96CC114FC860177091 /* [CP] Embed Pods Frameworks */,
+				B6022ED6F5D533C3B487AB89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellPhotoBrowser;
+			productName = WellPhotoBrowser;
+			productReference = 2A09045B1F05E13600A12EC5 /* WellPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A0904731F05E13800A12EC5 /* WellPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A09048B1F05E13900A12EC5 /* Build configuration list for PBXNativeTarget "WellPhotoBrowserTests" */;
+			buildPhases = (
+				2A0904701F05E13800A12EC5 /* Sources */,
+				2A0904711F05E13800A12EC5 /* Frameworks */,
+				2A0904721F05E13800A12EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0904761F05E13800A12EC5 /* PBXTargetDependency */,
+			);
+			name = WellPhotoBrowserTests;
+			productName = WellPhotoBrowserTests;
+			productReference = 2A0904741F05E13800A12EC5 /* WellPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A09047E1F05E13800A12EC5 /* WellPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A09048E1F05E13900A12EC5 /* Build configuration list for PBXNativeTarget "WellPhotoBrowserUITests" */;
+			buildPhases = (
+				2A09047B1F05E13800A12EC5 /* Sources */,
+				2A09047C1F05E13800A12EC5 /* Frameworks */,
+				2A09047D1F05E13800A12EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0904811F05E13800A12EC5 /* PBXTargetDependency */,
+			);
+			name = WellPhotoBrowserUITests;
+			productName = WellPhotoBrowserUITests;
+			productReference = 2A09047F1F05E13800A12EC5 /* WellPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0904531F05E13500A12EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = well;
+				TargetAttributes = {
+					2A09045A1F05E13600A12EC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZZKE7H6B25;
+						ProvisioningStyle = Automatic;
+					};
+					2A0904731F05E13800A12EC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZZKE7H6B25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A09045A1F05E13600A12EC5;
+					};
+					2A09047E1F05E13800A12EC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ZZKE7H6B25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A09045A1F05E13600A12EC5;
+					};
+				};
+			};
+			buildConfigurationList = 2A0904561F05E13500A12EC5 /* Build configuration list for PBXProject "WellPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A0904521F05E13500A12EC5;
+			productRefGroup = 2A09045C1F05E13600A12EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A09045A1F05E13600A12EC5 /* WellPhotoBrowser */,
+				2A0904731F05E13800A12EC5 /* WellPhotoBrowserTests */,
+				2A09047E1F05E13800A12EC5 /* WellPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0904591F05E13600A12EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A09046E1F05E13800A12EC5 /* LaunchScreen.storyboard in Resources */,
+				2A09046B1F05E13800A12EC5 /* Assets.xcassets in Resources */,
+				2A0904691F05E13800A12EC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0904721F05E13800A12EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09047D1F05E13800A12EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FAD166A8837FE6BC0673C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EB87C96CC114FC860177091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellPhotoBrowser/Pods-WellPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6022ED6F5D533C3B487AB89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellPhotoBrowser/Pods-WellPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A0904571F05E13600A12EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0904661F05E13800A12EC5 /* ViewController.m in Sources */,
+				2A0904631F05E13800A12EC5 /* AppDelegate.m in Sources */,
+				2A0904601F05E13700A12EC5 /* main.m in Sources */,
+				2A0904941F05EF2300A12EC5 /* PhotoBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0904701F05E13800A12EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0904791F05E13800A12EC5 /* WellPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09047B1F05E13800A12EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0904841F05E13900A12EC5 /* WellPhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A0904761F05E13800A12EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A09045A1F05E13600A12EC5 /* WellPhotoBrowser */;
+			targetProxy = 2A0904751F05E13800A12EC5 /* PBXContainerItemProxy */;
+		};
+		2A0904811F05E13800A12EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A09045A1F05E13600A12EC5 /* WellPhotoBrowser */;
+			targetProxy = 2A0904801F05E13800A12EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A0904671F05E13800A12EC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0904681F05E13800A12EC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A09046C1F05E13800A12EC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A09046D1F05E13800A12EC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A0904861F05E13900A12EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A0904871F05E13900A12EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A0904891F05E13900A12EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12253D4882E0FEFF31C2261 /* Pods-WellPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.FileTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A09048A1F05E13900A12EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70427A5D0D70D878C98D7905 /* Pods-WellPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.FileTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A09048C1F05E13900A12EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellPhotoBrowser.app/WellPhotoBrowser";
+			};
+			name = Debug;
+		};
+		2A09048D1F05E13900A12EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellPhotoBrowser.app/WellPhotoBrowser";
+			};
+			name = Release;
+		};
+		2A09048F1F05E13900A12EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WellPhotoBrowser;
+			};
+			name = Debug;
+		};
+		2A0904901F05E13900A12EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZZKE7H6B25;
+				INFOPLIST_FILE = WellPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = well.WellPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WellPhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0904561F05E13500A12EC5 /* Build configuration list for PBXProject "WellPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0904861F05E13900A12EC5 /* Debug */,
+				2A0904871F05E13900A12EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0904881F05E13900A12EC5 /* Build configuration list for PBXNativeTarget "WellPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0904891F05E13900A12EC5 /* Debug */,
+				2A09048A1F05E13900A12EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A09048B1F05E13900A12EC5 /* Build configuration list for PBXNativeTarget "WellPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A09048C1F05E13900A12EC5 /* Debug */,
+				2A09048D1F05E13900A12EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A09048E1F05E13900A12EC5 /* Build configuration list for PBXNativeTarget "WellPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A09048F1F05E13900A12EC5 /* Debug */,
+				2A0904901F05E13900A12EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0904531F05E13500A12EC5 /* Project object */;
+}
