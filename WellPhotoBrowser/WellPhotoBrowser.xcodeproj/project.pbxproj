@@ -16,6 +16,7 @@
 		2A0904791F05E13800A12EC5 /* WellPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0904781F05E13800A12EC5 /* WellPhotoBrowserTests.m */; };
 		2A0904841F05E13900A12EC5 /* WellPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0904831F05E13900A12EC5 /* WellPhotoBrowserUITests.m */; };
 		2A0904941F05EF2300A12EC5 /* PhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0904931F05EF2300A12EC5 /* PhotoBrowser.m */; };
+		2A6198D91F09DFAF0073464F /* Picture.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A6198D81F09DFAF0073464F /* Picture.plist */; };
 		C6C5D260AD61A32D6AE9DABF /* Pods_WellPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F9956932ABDFFDE34197BE /* Pods_WellPhotoBrowser.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		2A0904851F05E13900A12EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A0904921F05EF2300A12EC5 /* PhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoBrowser.h; path = PhotoBrowser/PhotoBrowser.h; sourceTree = "<group>"; };
 		2A0904931F05EF2300A12EC5 /* PhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoBrowser.m; path = PhotoBrowser/PhotoBrowser.m; sourceTree = "<group>"; };
+		2A6198D81F09DFAF0073464F /* Picture.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Picture.plist; sourceTree = SOURCE_ROOT; };
 		70427A5D0D70D878C98D7905 /* Pods-WellPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-WellPhotoBrowser/Pods-WellPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		71F9956932ABDFFDE34197BE /* Pods_WellPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WellPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12253D4882E0FEFF31C2261 /* Pods-WellPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellPhotoBrowser/Pods-WellPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		2A09045E1F05E13600A12EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A6198D81F09DFAF0073464F /* Picture.plist */,
 				2A09045F1F05E13700A12EC5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -292,6 +295,7 @@
 				2A09046E1F05E13800A12EC5 /* LaunchScreen.storyboard in Resources */,
 				2A09046B1F05E13800A12EC5 /* Assets.xcassets in Resources */,
 				2A0904691F05E13800A12EC5 /* Main.storyboard in Resources */,
+				2A6198D91F09DFAF0073464F /* Picture.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -108,13 +108,23 @@
     }];
 }
 
-#pragma mark    照片点两次放大
+#pragma mark    照片点两次放大,再点击两次缩回1
 -(void)twoTapAction:(UIGestureRecognizer *)twoTap
 {
-    [UIView animateWithDuration:0.3 animations:^{
-        UIScrollView *imageScrollView = (UIScrollView *)twoTap.view.superview;
-        imageScrollView.zoomScale = 3.0;
-    }];
+    UIScrollView *imageScrollView = (UIScrollView *)twoTap.view.superview;
+    if (imageScrollView.zoomScale == 3.0) {
+        [UIView animateWithDuration:0.3 animations:^{
+            
+            imageScrollView.zoomScale = 1.0;
+        }];
+    }else
+    {
+        [UIView animateWithDuration:0.3 animations:^{
+            
+            imageScrollView.zoomScale = 3.0;
+        }];
+    }
+
 }
 
 #pragma mark    设置每一张图片的frame

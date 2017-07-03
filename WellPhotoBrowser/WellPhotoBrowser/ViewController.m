@@ -8,12 +8,15 @@
 
 #import "ViewController.h"
 #import "PhotoBrowser.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface ViewController ()
 
 @property(nonatomic,strong)UIView *containerView;
 
 @property(nonatomic,strong)NSMutableArray *imageArray;
+
+@property(nonatomic,strong)NSMutableArray *netImageArray;
 
 @end
 
@@ -35,11 +38,11 @@
         self.containerView.frame = CGRectMake((self.view.frame.size.width - 250)*0.5, 64 + 50, 250, (80 +5) * (9 / 3) - 5);
         UIImageView *img = [[UIImageView alloc] initWithFrame:CGRectMake(imgX, imgY, 80, 80)];
         img.userInteractionEnabled = YES;
-        img.image = [UIImage imageNamed:[NSString stringWithFormat:@"0%d.jpg", (i + 1)]];
         img.contentMode = UIViewContentModeScaleAspectFill;
         img.clipsToBounds = YES;
         img.tag = i;
-        
+        NSString *imgUrl = self.netImageArray[i];
+        [img sd_setImageWithURL:[NSURL URLWithString:imgUrl] placeholderImage:nil];
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
         [img addGestureRecognizer:tap];
         
@@ -78,6 +81,22 @@
         _containerView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     }
     return _containerView;
+}
+
+#pragma makr    懒加载
+-(NSMutableArray *)netImageArray{
+    
+    if (!_netImageArray) {
+        
+        // 加载plist中的字典数组
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Picture.plist" ofType:nil];
+        NSArray *tempUrls = [NSArray arrayWithContentsOfFile:path];
+        _netImageArray = [NSMutableArray arrayWithArray:tempUrls];
+        
+    }
+    
+    return _netImageArray;
+    
 }
 
 
