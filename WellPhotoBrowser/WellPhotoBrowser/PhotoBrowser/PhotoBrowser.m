@@ -27,6 +27,9 @@
  */
 @property (nonatomic,strong) NSMutableArray *photos;
 
+
+@property (nonatomic,assign) BOOL isBig;
+
 @end
 
 @implementation PhotoBrowser
@@ -103,6 +106,7 @@
         image.frame = frame;
         self.blackBackgroundView.alpha = 0;
     }completion:^(BOOL finished) {
+        
         [self removeFromSuperview];
 
     }];
@@ -119,6 +123,7 @@
         }];
     }else
     {
+        self.isBig = YES;
         [UIView animateWithDuration:0.3 animations:^{
             
             imageScrollView.zoomScale = 3.0;
@@ -143,7 +148,8 @@
     }else
     {
         image.frame = CGRectMake(0, 0, imgW, imgH);
-        imgScrollView.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, imgH);
+//        imgScrollView.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, imgH);
+        imgScrollView.contentSize = CGSizeMake(imgW, imgH);
     }
 }
 #pragma mark    每一张图是加载每一个scrollView上的
@@ -202,9 +208,17 @@
     }else
     {
         imageFrame.origin.y = 0;
+        
+        if (self.isBig) {
+            //还是有一点问题
+            scrollView.contentOffset = CGPointMake(image.frame.size.width / 3, image.frame.size.height / 5);
+        }
+        self.isBig = NO;
     }
     
     image.frame = imageFrame;
+    
+    
     
 }
 
@@ -294,7 +308,7 @@
         UIImageView *testView = [[UIImageView alloc] init];
         testView.image = view.image;
         testView.frame = view.frame;
-        testView.contentMode = UIViewContentModeScaleAspectFill;
+        testView.contentMode = UIViewContentModeScaleAspectFit;
         testView.userInteractionEnabled = YES;
         testView.tag = view.tag;
         testView.clipsToBounds = YES;
